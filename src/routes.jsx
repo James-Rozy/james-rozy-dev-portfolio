@@ -12,16 +12,16 @@ const routes = [
 		errorElement: <ErrorPage />,
 	},
 	{
-		path: 'about',
-		element: <About />,
-	},
-	{
 		path: 'portfolio',
 		element: <Portfolio />,
 	},
 	{
 		path: 'resume',
 		element: <Resume />,
+	},
+	{
+		path: 'about',
+		element: <About />,
 	},
 	{
 		path: 'contact',
